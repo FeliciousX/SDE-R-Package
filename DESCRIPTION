@@ -2,7 +2,10 @@ Package: Fibonacci
 Title: SDE Assignment 1 Package
 Version: 0.1
 Date: 2015-04-26
-Authors: Churchill Lee, Rayner Paun
+Authors@R: as.person(c(
+    "Churchill Lee <7436904@students.swinburne.edu.my> [aut, cre]", 
+    "Rayner Paun <4308875@students.swinburne.edu.my> [aut]"
+  ))
 Description: This is just a test package to understand the packaging and deployment of R packages.
 Imports: stringr
 Depends: 
