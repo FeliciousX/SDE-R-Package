@@ -4,8 +4,7 @@ Version: 0.1
 Date: 2015-04-26
 Authors: Churchill Lee, Rayner Paun
 Description: This is just a test package to understand the packaging and deployment of R packages.
-Imports: ,
-    stringr
+Imports: stringr
 Depends: 
     R (>= 2.15.0)
 License: MIT LICENSE
