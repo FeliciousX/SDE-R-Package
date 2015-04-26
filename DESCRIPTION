@@ -9,6 +9,7 @@ Authors@R: as.person(c(
 Description: This is just a test package to understand the packaging and deployment of R packages.
 Imports: stringr
 Depends: 
-    R (>= 2.15.0)
+    R (>= 2.15.0),
+    stringr
 License: MIT LICENSE
 URL: https://github.com/FeliciousX/SDE-R-Package

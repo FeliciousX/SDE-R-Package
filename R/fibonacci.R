@@ -16,3 +16,7 @@ fib <- local({
     ans
   }
 })
+
+letters <- function(str) {
+  stringr::str_length(str)
+}
