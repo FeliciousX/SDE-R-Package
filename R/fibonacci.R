@@ -18,6 +18,7 @@ fib <- local({
 })
 
 letters <- function(str) {
-  stringr::str_length(str)
-  tail <- " number of characters."
+  x <- stringr::str_length(str)
+  tail <- "number of characters."
+  paste(x, tail)
 }
